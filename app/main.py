@@ -68,7 +68,7 @@ async def predict(data: Data):
     }
 
 
-@app.get('/predict_get', response_model=ResponseModel)
+@app.get('/predict', response_model=ResponseModel)
 async def predict_get(
     custserv_calls: int = 0,
     eve_mins: float = 0,
