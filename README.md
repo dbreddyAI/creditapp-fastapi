@@ -10,9 +10,11 @@ Go to `localhost:80/predict` or `localhost:80/docs` to see documentation
 
 # Run from folder (Not Docker)
 ```
+pip install -r requirements.txt
+cd app
 uvicorn main:app
 ```
-Go to `localhost:80/predict` or `localhost:80/docs` for documentation
+Go to `localhost:8000/predict` or `localhost:8000/docs` for documentation
 
 # Usage
 
